@@ -1,0 +1,25 @@
+@media screen and { (max-width: 600px)
+  html{
+    font-size: 12px;
+  }
+}
+
+@media screen and  { min-width:1200px)
+
+}
+
+@media scren {min-width:2000px)
+  p {
+    max-width: 75ch;
+  }
+
+}
+
+body {
+
+width: 100%;
+
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: : auto;
+}
