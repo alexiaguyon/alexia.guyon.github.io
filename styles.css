@@ -97,11 +97,10 @@ iframe#tumblr_controls {
 
 .title {
     width: 100%;
-    text-align: center;
-    margin: auto;;
-    position: fixed;
-    top: 20px;
-    z-index: 3000;
+    text-align:left;
+  width: 70%;
+  margin-left: 15%;
+ margin-top: 10%;
 
 }
 
