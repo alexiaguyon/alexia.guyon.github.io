@@ -56,6 +56,17 @@ iframe#tumblr_controls {
     margin: 50px auto;
 }
 
+.coucou
+{
+  position: fixed;
+  width: 100%;
+  text-align:center;
+width: 70%;
+margin-left: 15%;
+
+ }
+
+
 .post {
     padding: 40px;
 }
@@ -186,17 +197,4 @@ ul.chat {
  font-size: 20px;
 color: black;
 position: absolute;
-}
-
-.coucou
-{
-  position: fixed;
-  width: 100%;
-  text-align:center;
-width: 70%;
-margin-left: 15%;
-
-
-
-
 }
