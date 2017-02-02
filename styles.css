@@ -1,7 +1,13 @@
+html * {
+  box-sizing: border-box;
+}
+
 figure {
     margin: 0
 }
-
+.coucou a, .about a {
+  display: block;
+}
 .tmblr-iframe {
     position: absolute
 }
@@ -24,6 +30,7 @@ body {
     color: #000000;
     font-size: 17px;
     line-height: 25px;
+    margin-bottom:60vh;
 }
 
 a {
@@ -59,10 +66,11 @@ iframe#tumblr_controls {
 .coucou
 {
   position: fixed;
-width: 50%;
-text-align: center;
-margin-left: 25%;
-
+  text-align: center;
+  top:25px;
+  z-index:1;
+  left:50%;
+  transform: translate(-50%);
  }
 
 
@@ -95,7 +103,7 @@ margin-left: 25%;
 .bloc-fixe {
     position: fixed;
     left: 25px;
-    top:20px;
+    top:21px;
     z-index: 5000;
 }
 
